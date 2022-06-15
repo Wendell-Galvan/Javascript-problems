@@ -25,5 +25,3 @@ function findLongestWord (str){
 
 
 console.log(findLongestWord(string));
-
-console.log(string);
