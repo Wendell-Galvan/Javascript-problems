@@ -10,18 +10,18 @@ step 5: create an if statement to check if length of array is > than longest wor
 
 let string = "This is a string to be analyzed";
 
-function findLongestWord (str){
+function findLongestWord(str){
 	let stringArray = str.split(" ");
 	let longestWord = "";
 
 	for (let i= 0; i < stringArray.length; i++){
 		if (stringArray.length[i] > longestWord.length){
-			longestWordstring = stringArray[i];
+			longestWord = stringArray[i];
 		}
 	}
 
 	return longestWord;
-}
+};
 
 
 console.log(findLongestWord(string));
