@@ -19,8 +19,8 @@ let string = "This is a string to be analyzed";
 function countVowels (str){
 	let vowelCounter = 0;
 	let vowels = ['a', 'e', 'i', 'o', 'u'];
-	let letterArray = str.split("");
-	
+	let letterArray = str.toLowerCase().split("");
+	//console.log(letterArray);
 	for (let i = 0; i < letterArray.length; i++){
 		// I initiatlly logged: if (letterArray[i].includes(vowels))  Why won't this work? 
 		if (vowels.includes(letterArray[i])){
