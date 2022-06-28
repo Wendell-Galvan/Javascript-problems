@@ -2,7 +2,7 @@
 
 //Then, write a JavaScript function to set the background color of that paragraph using an "onclick" event added to a button in the UI.
 
-function myFunction(){
+function changeBackgroundColor(){
 	let paragraph = document.getElementById("paragraph");
 	console.log(paragraph);
 	paragraph.style.backgroundColor = "red";
