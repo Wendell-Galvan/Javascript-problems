@@ -6,12 +6,6 @@ When you click on it, display it on the webpage by adding it as the text for ano
 */
 
 
-/*function getLink(){
-    const linkUrl = document.getElementById('link').getAttribute('href');
-    console.log(document.getAttribute('href'));
-}
-*/
-
 function getLink(){
     const linkUrl = document.getElementById('link').getAttribute('href');
     document.getElementById('p1').innerHTML = linkUrl;
